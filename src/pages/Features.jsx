@@ -36,7 +36,27 @@ const Features = () => {
               </p>
             </div>
             <div style={{ flex: 1, minWidth: '300px', display: 'flex', justifyContent: 'flex-end' }}>
-               <img src="https://hardanmusic.com/flies/2024/11/new-pic--1024x836.webp" alt="Sync" style={{ width: '100%', maxWidth: '500px', borderRadius: '24px', boxShadow: '0 10px 40px rgba(0,0,0,0.5)' }} />
+               <div style={{ position: 'relative', width: '100%', height: '450px', maxWidth: '500px' }}>
+                 {/* DJ / Creator Image (Top Right) */}
+                 <div style={{ position: 'absolute', top: '0', right: '0', width: '55%', height: '55%', borderRadius: '24px', overflow: 'hidden', boxShadow: '0 10px 30px rgba(0,0,0,0.5)', border: '4px solid #000', backgroundColor: '#e87431' }}>
+                   <img src="https://images.unsplash.com/photo-1470225620780-dba8ba36b745?w=600&q=80" alt="DJ" style={{ width: '100%', height: '100%', objectFit: 'cover' }} />
+                 </div>
+
+                 {/* Band / Artists Image (Bottom Left) */}
+                 <div style={{ position: 'absolute', bottom: '0', left: '0', width: '65%', height: '55%', borderRadius: '24px', overflow: 'hidden', boxShadow: '0 10px 30px rgba(0,0,0,0.5)', border: '4px solid #000', backgroundColor: '#d98b48', zIndex: 2 }}>
+                   <img src="https://images.unsplash.com/photo-1508700115892-45ecd05ae2ad?w=600&q=80" alt="Band" style={{ width: '100%', height: '100%', objectFit: 'cover' }} />
+                 </div>
+
+                 {/* Headphones (Top Left) */}
+                 <div style={{ position: 'absolute', top: '15%', left: '5%', width: '35%', height: '35%', borderRadius: '50%', overflow: 'hidden', boxShadow: '0 10px 30px rgba(0,0,0,0.5)', border: '4px solid #000', backgroundColor: '#f2a81d', zIndex: 3 }}>
+                   <img src="https://images.unsplash.com/photo-1505740420928-5e560c06d30e?w=400&q=80" alt="Headphones" style={{ width: '100%', height: '100%', objectFit: 'cover' }} />
+                 </div>
+
+                 {/* Instruments (Bottom Right) */}
+                 <div style={{ position: 'absolute', bottom: '15%', right: '5%', width: '30%', height: '30%', borderRadius: '20px', overflow: 'hidden', boxShadow: '0 10px 30px rgba(0,0,0,0.5)', border: '4px solid #000', backgroundColor: '#8a62a6', zIndex: 4 }}>
+                   <img src="https://images.unsplash.com/photo-1511379938547-c1f69419868d?w=400&q=80" alt="Instruments" style={{ width: '100%', height: '100%', objectFit: 'cover' }} />
+                 </div>
+               </div>
             </div>
           </div>
 
@@ -52,7 +72,27 @@ const Features = () => {
               </p>
             </div>
             <div style={{ flex: 1, minWidth: '300px' }}>
-               <img src="https://hardanmusic.com/flies/2025/09/ChatGPT-Image-Sep-1-2025-02_17_08-PM.webp" alt="Playlist" style={{ width: '100%', maxWidth: '500px', borderRadius: '24px', boxShadow: '0 10px 40px rgba(0,0,0,0.5)' }} />
+               <div style={{ position: 'relative', width: '100%', height: '450px', maxWidth: '500px' }}>
+                 {/* Main Playlist/Phone Image (Center Left) */}
+                 <div style={{ position: 'absolute', top: '10%', left: '0', width: '50%', height: '70%', borderRadius: '24px', overflow: 'hidden', boxShadow: '0 10px 30px rgba(0,0,0,0.5)', border: '4px solid #000', zIndex: 3, backgroundColor: '#1db954' }}>
+                   <img src="https://images.unsplash.com/photo-1614680376593-902f74cf0d41?w=600&q=80" alt="Spotify" style={{ width: '100%', height: '100%', objectFit: 'cover' }} />
+                 </div>
+
+                 {/* Person Listening (Top Right) */}
+                 <div style={{ position: 'absolute', top: '0', right: '5%', width: '45%', height: '45%', borderRadius: '50%', overflow: 'hidden', boxShadow: '0 10px 30px rgba(0,0,0,0.5)', border: '4px solid #000', zIndex: 2, backgroundColor: '#ff4b4b' }}>
+                   <img src="https://images.unsplash.com/photo-1514525253161-7a46d19cd819?w=500&q=80" alt="Listening" style={{ width: '100%', height: '100%', objectFit: 'cover' }} />
+                 </div>
+
+                 {/* Music equipment (Bottom Right) */}
+                 <div style={{ position: 'absolute', bottom: '5%', right: '0', width: '55%', height: '45%', borderRadius: '24px', overflow: 'hidden', boxShadow: '0 10px 30px rgba(0,0,0,0.5)', border: '4px solid #000', zIndex: 1, backgroundColor: '#8a2be2' }}>
+                   <img src="https://images.unsplash.com/photo-1598387993441-a364f854c3e1?w=600&q=80" alt="Music Gear" style={{ width: '100%', height: '100%', objectFit: 'cover' }} />
+                 </div>
+
+                 {/* Stats / Charts (Bottom Left overlap) */}
+                 <div style={{ position: 'absolute', bottom: '0', left: '25%', width: '30%', height: '25%', borderRadius: '16px', overflow: 'hidden', boxShadow: '0 10px 30px rgba(0,0,0,0.5)', border: '4px solid #000', zIndex: 4, backgroundColor: '#f2a81d' }}>
+                   <img src="https://images.unsplash.com/photo-1551288049-bebda4e38f71?w=400&q=80" alt="Stats" style={{ width: '100%', height: '100%', objectFit: 'cover' }} />
+                 </div>
+               </div>
             </div>
           </div>
 
@@ -68,7 +108,27 @@ const Features = () => {
               </p>
             </div>
             <div style={{ flex: 1, minWidth: '300px', display: 'flex', justifyContent: 'flex-end' }}>
-               <img src="https://hardanmusic.com/flies/2025/09/newwlogo.webp" alt="Fan Links" style={{ width: '100%', maxWidth: '500px', borderRadius: '24px', boxShadow: '0 10px 40px rgba(0,0,0,0.5)' }} />
+               <div style={{ position: 'relative', width: '100%', height: '450px', maxWidth: '500px' }}>
+                 {/* Analytics/Charts Image (Center Right) */}
+                 <div style={{ position: 'absolute', top: '15%', right: '0', width: '55%', height: '60%', borderRadius: '24px', overflow: 'hidden', boxShadow: '0 10px 30px rgba(0,0,0,0.5)', border: '4px solid #000', zIndex: 2, backgroundColor: '#3b82f6' }}>
+                   <img src="https://images.unsplash.com/photo-1460925895917-afdab827c52f?w=600&q=80" alt="Analytics" style={{ width: '100%', height: '100%', objectFit: 'cover' }} />
+                 </div>
+
+                 {/* Social Links / Phone (Top Left) */}
+                 <div style={{ position: 'absolute', top: '0', left: '5%', width: '45%', height: '50%', borderRadius: '24px', overflow: 'hidden', boxShadow: '0 10px 30px rgba(0,0,0,0.5)', border: '4px solid #000', zIndex: 3, backgroundColor: '#e87431' }}>
+                   <img src="https://images.unsplash.com/photo-1611162616305-c69b3fa7fbe0?w=500&q=80" alt="Social Links" style={{ width: '100%', height: '100%', objectFit: 'cover' }} />
+                 </div>
+
+                 {/* Fans / Audience (Bottom Left) */}
+                 <div style={{ position: 'absolute', bottom: '5%', left: '0', width: '50%', height: '40%', borderRadius: '24px', overflow: 'hidden', boxShadow: '0 10px 30px rgba(0,0,0,0.5)', border: '4px solid #000', zIndex: 1, backgroundColor: '#10b981' }}>
+                   <img src="https://images.unsplash.com/photo-1529333166437-7750a6dd5a70?w=500&q=80" alt="Audience Connections" style={{ width: '100%', height: '100%', objectFit: 'cover' }} />
+                 </div>
+
+                 {/* Fan Interaction (Bottom Right overlap) */}
+                 <div style={{ position: 'absolute', bottom: '0', right: '25%', width: '35%', height: '35%', borderRadius: '50%', overflow: 'hidden', boxShadow: '0 10px 30px rgba(0,0,0,0.5)', border: '4px solid #000', zIndex: 4, backgroundColor: '#f2a81d' }}>
+                   <img src="https://images.unsplash.com/photo-1512428559087-560fa5ceab42?w=400&q=80" alt="Fan Interaction" style={{ width: '100%', height: '100%', objectFit: 'cover' }} />
+                 </div>
+               </div>
             </div>
           </div>
         </div>

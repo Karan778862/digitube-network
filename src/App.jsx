@@ -69,7 +69,7 @@ const Layout = ({ children }) => {
               <ul>
                 <li><a href="mailto:info@digitubenetwork.com">info@digitubenetwork.com</a></li>
                 <li><a href="mailto:support@digitubenetwork.com">support@digitubenetwork.com</a></li>
-                <li><a href="tel:+1234567890">+123-456-7890</a></li>
+                <li><a href="tel:+919205978006">+91 92059 78006</a></li>
               </ul>
             </div>
             <div className="footer-col">

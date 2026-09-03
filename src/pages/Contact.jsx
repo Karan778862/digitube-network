@@ -86,7 +86,7 @@ const Contact = () => {
               <div>
                 <h4 style={{ fontSize: '1.2rem', marginBottom: '5px' }}>Phone</h4>
                 <p style={{ color: '#888', marginBottom: '5px' }}>Mon-Fri from 8am to 5pm.</p>
-                <a href="tel:+1234567890" style={{ color: 'var(--primary-color)', textDecoration: 'none' }}>+1 (234) 567-890</a>
+                <a href="tel:+919205978006" style={{ color: 'var(--primary-color)', textDecoration: 'none' }}>+91 92059 78006</a>
               </div>
             </div>
 
