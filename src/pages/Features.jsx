@@ -22,10 +22,10 @@ const Features = () => {
       </section>
 
       {/* Feature Blocks */}
-      <section style={{ paddingTop: '100px' }}>
+      <section className="features-page" style={{ paddingTop: '100px' }}>
         <div className="container">
           {/* Feature 1: Sync */}
-          <div style={{ display: 'flex', flexWrap: 'wrap', alignItems: 'center', gap: '80px', marginBottom: '120px' }}>
+          <div className="flex-container feature-block-margin" style={{ display: 'flex', flexWrap: 'wrap', alignItems: 'center', gap: '80px', marginBottom: '120px' }}>
             <div style={{ flex: 1, minWidth: '300px' }}>
               <div style={{ width: '70px', height: '70px', background: '#111', borderRadius: '50%', display: 'flex', alignItems: 'center', justifyContent: 'center', marginBottom: '20px' }}>
                 <MonitorPlay size={32} color="var(--primary-color)" />
@@ -61,7 +61,7 @@ const Features = () => {
           </div>
 
           {/* Feature 2: Playlist */}
-          <div style={{ display: 'flex', flexWrap: 'wrap', alignItems: 'center', gap: '80px', flexDirection: 'row-reverse', marginBottom: '120px' }}>
+          <div className="flex-container reverse feature-block-margin" style={{ display: 'flex', flexWrap: 'wrap', alignItems: 'center', gap: '80px', flexDirection: 'row-reverse', marginBottom: '120px' }}>
             <div style={{ flex: 1, minWidth: '300px' }}>
               <div style={{ width: '70px', height: '70px', background: '#111', borderRadius: '50%', display: 'flex', alignItems: 'center', justifyContent: 'center', marginBottom: '20px' }}>
                 <ListMusic size={32} color="var(--primary-color)" />
@@ -97,7 +97,7 @@ const Features = () => {
           </div>
 
           {/* Feature 3: Fan Links */}
-          <div style={{ display: 'flex', flexWrap: 'wrap', alignItems: 'center', gap: '80px' }}>
+          <div className="flex-container" style={{ display: 'flex', flexWrap: 'wrap', alignItems: 'center', gap: '80px' }}>
             <div style={{ flex: 1, minWidth: '300px' }}>
               <div style={{ width: '70px', height: '70px', background: '#111', borderRadius: '50%', display: 'flex', alignItems: 'center', justifyContent: 'center', marginBottom: '20px' }}>
                 <LinkIcon size={32} color="var(--primary-color)" />

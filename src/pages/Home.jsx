@@ -43,7 +43,7 @@ const Home = () => {
       {/* Partners Section */}
       <section style={{ padding: '60px 0', background: '#0a0a0a', borderTop: '1px solid #111' }}>
         <div className="container">
-          <div style={{ display: 'flex', justifyContent: 'center', alignItems: 'center', gap: '40px', flexWrap: 'wrap', opacity: 0.7 }}>
+          <div className="partners-logos" style={{ display: 'flex', justifyContent: 'center', alignItems: 'center', gap: '40px', flexWrap: 'wrap', opacity: 0.7 }}>
             <img src="https://hardanmusic.com/flies/2024/11/66af509cd3076ed98e01769c_apple.webp" alt="Apple Music" style={{ height: '35px', filter: 'grayscale(100%)' }} />
             <img src="https://hardanmusic.com/flies/2024/11/66af509c1da979ff4ba09e63_spotify.webp" alt="Spotify" style={{ height: '35px', filter: 'grayscale(100%)' }} />
             <img src="https://hardanmusic.com/flies/2024/11/66af509cdba6c4f6a06ce615_youtube.webp" alt="YouTube" style={{ height: '35px', filter: 'grayscale(100%)' }} />
@@ -54,16 +54,16 @@ const Home = () => {
       </section>
 
       {/* Main Banner */}
-      <section style={{ padding: '0', marginBottom: '120px' }}>
-        <div style={{ width: '100%', height: '300px', background: 'url(https://hardanmusic.com/flies/2025/09/banner.jpg) center/cover no-repeat', display: 'flex', alignItems: 'center', justifyContent: 'center', position: 'relative' }}>
+      <section className="main-banner-section" style={{ padding: '0', marginBottom: '120px' }}>
+        <div className="main-banner-bg" style={{ width: '100%', height: '300px', background: 'url(https://hardanmusic.com/flies/2025/09/banner.jpg) center/cover no-repeat', display: 'flex', alignItems: 'center', justifyContent: 'center', position: 'relative' }}>
           <div style={{ position: 'absolute', top: 0, left: 0, right: 0, bottom: 0, background: 'linear-gradient(to right, rgba(0,0,0,0.8), rgba(0,0,0,0.4))' }}></div>
-          <h2 className="main-banner-text" style={{ position: 'relative', zIndex: 1, fontSize: '4rem', fontWeight: '800', textAlign: 'center', letterSpacing: '1px' }}>Release Your Music<br />Globally On <span style={{ fontStyle: 'italic', color: '#fff' }}>150+ PLATFORMS</span></h2>
+          <h2 className="main-banner-text" style={{ position: 'relative', zIndex: 1, fontWeight: '800', textAlign: 'center', letterSpacing: '1px' }}>Release Your Music<br />Globally On <span style={{ fontStyle: 'italic', color: '#fff' }}>150+ PLATFORMS</span></h2>
         </div>
       </section>
       
       {/* Commercialize Section */}
       <section style={{ padding: '80px 0', background: '#050505', borderTop: '1px solid #111' }}>
-        <div className="container" style={{ display: 'flex', flexWrap: 'wrap', alignItems: 'center', gap: '80px' }}>
+        <div className="container flex-container" style={{ display: 'flex', flexWrap: 'wrap', alignItems: 'center', gap: '80px' }}>
           <div style={{ flex: 1, minWidth: '300px' }}>
              <h3 style={{ color: 'var(--primary-color)', fontSize: '1.1rem', marginBottom: '15px', textTransform: 'uppercase', letterSpacing: '2px', fontWeight: 'bold' }}>COMMERCIALIZE</h3>
              <h2 className="section-title" style={{ fontSize: '3.5rem', marginBottom: '25px', lineHeight: '1.1' }}>Sell Globally,<br />Earn More!</h2>
@@ -142,7 +142,7 @@ const Home = () => {
 
       {/* Enhance Section */}
       <section style={{ padding: '80px 0', background: '#0a0a0a', borderTop: '1px solid #111' }}>
-        <div className="container" style={{ display: 'flex', flexWrap: 'wrap', alignItems: 'center', gap: '80px', flexDirection: 'row-reverse' }}>
+        <div className="container flex-container reverse" style={{ display: 'flex', flexWrap: 'wrap', alignItems: 'center', gap: '80px', flexDirection: 'row-reverse' }}>
           <div style={{ flex: 1, minWidth: '300px' }}>
              <h3 style={{ color: 'var(--primary-color)', fontSize: '1.1rem', marginBottom: '15px', textTransform: 'uppercase', letterSpacing: '2px', fontWeight: 'bold' }}>ENHANCE</h3>
              <h2 className="section-title" style={{ fontSize: '3.5rem', marginBottom: '25px', lineHeight: '1.1' }}>Boost Your Reach By<br />Connecting With<br />Your Fans!</h2>
@@ -227,7 +227,7 @@ const Home = () => {
 
       {/* Features Showcase */}
       <section style={{ padding: '80px 0', background: '#050505', borderTop: '1px solid #111' }}>
-        <div className="container" style={{ display: 'flex', gap: '80px', alignItems: 'center', flexWrap: 'wrap' }}>
+        <div className="container flex-container" style={{ display: 'flex', gap: '80px', alignItems: 'center', flexWrap: 'wrap' }}>
           <div style={{ flex: 1, minWidth: '300px' }}>
             <h3 style={{ color: 'var(--primary-color)', fontSize: '1.1rem', marginBottom: '15px', textTransform: 'uppercase', letterSpacing: '2px', fontWeight: 'bold' }}>FEATURES</h3>
             
@@ -398,7 +398,7 @@ const Home = () => {
 
       {/* CTA Section */}
       <section style={{ padding: '80px 0', background: '#0a0a0a', borderTop: '1px solid #111' }}>
-        <div className="container" style={{ display: 'flex', alignItems: 'center', gap: '60px', flexWrap: 'wrap' }}>
+        <div className="container flex-container" style={{ display: 'flex', alignItems: 'center', gap: '60px', flexWrap: 'wrap' }}>
           <div style={{ flex: 1, minWidth: '300px' }}>
             <h3 style={{ color: 'var(--primary-color)', fontSize: '1.1rem', marginBottom: '15px', textTransform: 'uppercase', letterSpacing: '2px', fontWeight: 'bold' }}>JOIN US</h3>
             <h2 className="section-title" style={{ fontSize: '3.5rem', marginBottom: '25px', lineHeight: '1.1' }}>Let Digitube Network Drive the Success of Your Next Release</h2>
@@ -430,8 +430,8 @@ const Home = () => {
 
       {/* FAQ Section */}
       <section style={{ padding: '120px 0', background: '#050505', borderTop: '1px solid #111' }}>
-        <div className="container" style={{ display: 'flex', gap: '80px', alignItems: 'flex-start', flexWrap: 'wrap' }}>
-          <div style={{ flex: 1, position: 'sticky', top: '120px', minWidth: '300px' }}>
+        <div className="container flex-container" style={{ display: 'flex', gap: '80px', alignItems: 'flex-start', flexWrap: 'wrap' }}>
+          <div className="faq-sticky-header" style={{ flex: 1, position: 'sticky', top: '120px', minWidth: '300px' }}>
             <h3 style={{ color: 'var(--primary-color)', fontSize: '1.1rem', marginBottom: '15px', textTransform: 'uppercase', letterSpacing: '2px', fontWeight: 'bold' }}>FAQs</h3>
             <h2 className="section-title" style={{ fontSize: '3.5rem', lineHeight: '1.1', marginBottom: '30px' }}>FREQUENTLY ASKED<br />QUESTIONS</h2>
             <p style={{ color: '#888', fontSize: '1.1rem' }}>Explore common questions about Digitube Network.</p>
